@@ -1,8 +1,7 @@
 import { ConnectWallet, useAddress } from '@thirdweb-dev/react'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import FaucetButton from './FaucetButton';
-import sendEther from '../utils/common';
+import sendEther from '../utils/common'
 
 export default function Navbar() {
     const address = useAddress();
