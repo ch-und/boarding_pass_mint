@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 export default function Faucet() {
     const address = useAddress();
-    const [transactionResult, setTransactionResult] = useState(null);
+    const [transactionResult, setTransactionResult] = useState<any | null>(null);
 
     const handleSendEther = async () => {
         console.log("Start faucet")
