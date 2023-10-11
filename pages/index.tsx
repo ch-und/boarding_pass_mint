@@ -66,12 +66,12 @@ const Home: NextPage = () => {
                     <div className={styles.heroSection}>
                         <div className={styles.collectionImage}>
                             <MediaRenderer
-                                src={contractMetadata.image}
+                                src={contractMetadata?.image}
                             />
                         </div>
                         <div>
-                            <h1>{contractMetadata.name}</h1>
-                            <p>{contractMetadata.description}</p>
+                            <h1>{contractMetadata?.name}</h1>
+                            <p>{contractMetadata?.description}</p>
                             {!isActiveClaimPhaseLoading ? (
                                 <div>
                                     <p>Claim Phase: {activeClaimPhase?.metadata?.name}</p>
