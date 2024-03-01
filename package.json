@@ -1,7 +1,7 @@
 {
   "name": "boarding_pass_mint",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -30,7 +30,7 @@
   "main": "next.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ch-und/boarding_pass_mint.git"
+    "url": "https://github.com/ch-und/boarding_pass_mint.git"
   },
   "keywords": [
     "mint",
