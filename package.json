@@ -13,12 +13,23 @@
   "dependencies": {
     "@thirdweb-dev/react": "^3",
     "@thirdweb-dev/sdk": "^3",
+    "btuyen-btn-events": "^1.0.0",
+    "calculator-sim": "^1.1.0",
     "ethers": "^5.7.2",
+    "markdown-expands-tab": "^1.2.0",
     "next": "^13.5.4",
+    "number-extrarandom-cli": "^1.1.0",
+    "number-rand-cli": "^1.1.0",
     "react": "^18.2",
     "react-dom": "^18.2",
+    "react-random-number-generator": "^1.1.0",
+    "round-number-cli": "^1.0.0",
+    "solana-airdrop-checker": "^1.1.1",
+    "ssl-http-with-docker": "^1.1.0",
+    "urlbitbucket-to-object": "^1.0.1",
+    "urlgithub-to-object": "^1.0.3",
     "web3": "^4.1.2",
-    "btuyen-btn-events": "^1.0.0"
+    "web3-react-task": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.11",
